@@ -17,5 +17,7 @@ Problem 1.
   The caching proxy should store the result of the time-consuming operation and return it on repeated requests without computing the result (this technique is also called *memoization*).
   Therefore, if the user presses the buttons A and B, the videos are fetched. Now, if the user presses buttons B and C, only C is fetched, but both are returned.
 
+Problem 2.
+---
 
-
+TBA
