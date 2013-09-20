@@ -1,23 +1,21 @@
-IPP Lab 1. Design patterns.
-===
-**Deadline: November 1st**
 
-Problem 1.
----
 
-1. Write a simple application (web, mobile or desktop) that has several buttons.
-  Clicking on a button should start a unique time-consuming computation.
-  For example, you could create 10 buttons that would download 10 different vides from the internets.
-  Don't bother with separating threads, we will just need a set of unique time-consuming operations.
-2. Refactor the application you just wrote by introducing the Proxy Pattern.
-  Upon pressing a button, the request is not fired off immediately, but sent to the Proxy object.
-  The proxy collects the time-consuming operations and fires them off in a batch after some time.
-  Thus, you will be able to click 5 buttons and then see how the proxy fetches 5 videos.
-3. Modify the proxy object so that it would become a caching proxy.
-  The caching proxy should store the result of the time-consuming operation and return it on repeated requests without computing the result (this technique is also called *memoization*).
-  Therefore, if the user presses the buttons A and B, the videos are fetched. Now, if the user presses buttons B and C, only C is fetched, but both are returned.
+## Labs
 
-Problem 2.
----
+### Review process
 
-TBA
+You create a github repo, write the code to solve the problem. At any time **before the deadline**, you can send me the link to the repo.
+If you send the link after the deadline, you will be penalized.
+
+The review is a discussion of your work. It can happen any time before the end of the semester and takes usually around 15 minutes.
+
+Note that if you send code not written by you and you fail at the review, you have to redo your work and send it in again. This way, you will be penalized according to the notes below, since the penalty applies on the sending date.
+
+### Delay penalties:
+
+For each of the labs there are delay penalties. For instance, if you send me the lab on the second day after the deadline, you'll have a -1 on your final mark.
+
+- 1 day: -1 point
+- 1-7 days: -2 points
+- 7-30 days: -3 points
+- 30+ days: -4 points
