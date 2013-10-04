@@ -44,6 +44,8 @@ For an approximate structure, refer to the diagram below.
 
 ![Diagram](http://i.imgur.com/86JKTWa.png)
 
+**UPDATE: the keyboard should not be in the diagram. Sorry, my mistake.**
+
 
 ---
 
